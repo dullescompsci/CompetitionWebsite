@@ -20,7 +20,7 @@
 	        <a class="nav-link" href="results.html">Results </a>
 	      </li>
 	      <li class="nav-item">
-	      	<a class="nav-link" href="downloads.html">Downloads </a>
+	      	<a class="nav-link active" href="downloads.html">Downloads </a>
 	      </li>
 	      <li class="nav-item">
 	      	<a class="nav-link" href="novice.html">Novice Hands-On </a>
@@ -32,9 +32,66 @@
 	  </div>
 	</nav>
 
+<style>
+.table {
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	color:white;
+}
 
+.table-boredered {
+  border: 1px solid #ddd;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border: 1px solid #ddd;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.table a {
+  color: white;
+}
+</style>
 	<div class="container">
 		<h1> DOWNLOADS</h1>
+
+		<table class="table " style="background:linear-gradient(to right, #1e1c2d, #1e1c2d, #1a192a, #1a192a,#21202e,#21202e,#21202e,#1a192a,#1a192a,#1a192a) !important;  ">
+  <thead>
+    <tr>
+      <th scope="col">Link</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="#" >Link</a></th>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <th scope="row"><a href="#" >Link</a></th>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <th scope="row"><a href="#" >Link</a></th>
+      <td>Description</td>
+    </tr>
+  </tbody>
+</table>
 	</div>
 
 	<script src="js/jquery.js"></script>
